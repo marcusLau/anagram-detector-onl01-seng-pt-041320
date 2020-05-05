@@ -20,5 +20,6 @@ class Anagram
         result << arr[i]
       end
     end
+    return result
   end
 end
