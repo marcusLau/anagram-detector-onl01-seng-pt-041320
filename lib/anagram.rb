@@ -1,7 +1,7 @@
 # Your code goes here!
 class Anagram
   
-  @anagram # rearranging its letters
+  attr_accessor :anagram
   
   def initialization(anagram)
     @anagram = anagram
