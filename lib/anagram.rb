@@ -1,7 +1,7 @@
 # Your code goes here!
 class Anagram
   
-  @anagram
+  @anagram # rearranging its letters
   
   def initialization(anagram)
     @anagram = anagram
