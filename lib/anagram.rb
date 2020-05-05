@@ -14,6 +14,9 @@ class Anagram
       # if sorted add to anagram_result_arr to return
     # if no anagrams found return nil
     
-    
+    result = []
+    for i in 0..arr.length-1
+      temp = arr[i].split("").sort
+      
   end
 end
