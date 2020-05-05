@@ -5,5 +5,7 @@ class Anagram
   
   def initialization(anagram)
     @anagram = anagram
+  end
+  
   
 end
