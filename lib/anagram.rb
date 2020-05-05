@@ -16,7 +16,9 @@ class Anagram
     
     result = []
     for i in 0..arr.length-1
-      temp = arr[i].split("").sort
-      
+      if arr[i].split("").sort == @anagram.split("").sort
+        result << arr[i]
+      end
+    end
   end
 end
