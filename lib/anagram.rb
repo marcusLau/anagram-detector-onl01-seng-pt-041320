@@ -12,6 +12,8 @@ class Anagram
     # per each element split AND sort the word to get a sorted letter array
       # check if that sorted letter array matches @anagram.split.sorted 
       # if sorted add to anagram_result_arr to return
-    # if no anagrams found 
+    # if no anagrams found return nil
+    
+    
   end
 end
