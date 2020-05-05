@@ -7,5 +7,7 @@ class Anagram
     @anagram = anagram
   end
   
-  
+  def match(arr)
+    
+  end
 end
